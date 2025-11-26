@@ -1,38 +1,21 @@
-Template for creating and submitting MAT496 capstone project.
 
-# Overview of MAT496
-
-In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
-
-- Prompting
-- Structured Output 
-- Semantic Search
-- Retreaval Augmented Generation (RAG)
-- Tool calling LLMs & MCP
-- Langgraph: State, Nodes, Graph
-
-We also learned that Langsmith is a nice tool for debugging Langgraph codes.
-
-------
-
-# Capstone Project objective
-
-The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
-
-
--------------------------
-
-# Project report Template
-
-## Title: [your title goes here]
+## Title: Efficient Study Guide- A RAG Study Assistant Using Langgraph
 
 ## Overview
 
-[your overview goes here. My project does this that  etc]
+The general idea is that this Study Guide will help students convert unstructured course materials (PDFs, lecture notes, lecture slides, textbooks) into an interactive study assistant, and help the students be smarter with their time and resources. The program will use semantic search and RAG to answer questions with citations, generate quizzes and flashcards, produce step-by-step explanations, and adapt quiz difficulty automatically based on the student's performance. The system will use a LangGraph flow (stateful graph), with LLM nodes for prompting and structured responses, tool-calls for computation, and LangSmith traces for debugging. This Guide will also be particularly useful for preparing certain explaination points that are expected in our courses as taught in the classes and provided in the notes, that generic chatgpt or gemini models won't be able to provide.
 
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
+"Think about all the problems which you cannot have solved earlier, but are now possible to solve with the concepts learned in this course."
+I thought about this and then came up with this project idea.
+This project will integrate the following tools that I learnt throughout the course:
+- Prompting: to guide the LLM to answer in exam-style formats, or to generate quizzes and explanations the way I want
+- Structured Output: so the model always returns answers in clear JSON formats ,for example: answers with citations, quiz questions, flashcards
+- Semantic Search: which allows the system to actually find the relevant sections from my uploaded materials instead of guessing
+- Retrieval-Augmented Generation (RAG): which ensures that all answers come from my course content, with citations, so the system doesn’t try to over or undercompensate or go outside the syllabus, and provide me exactly the content I require
+- Tool calling & MCP: which I use for things like small calculations, grading quiz answers, and other helper functions
+- LangGraph: to organise the whole application as a series of nodes: like routing the user’s request, retrieving documents, generating answers, grading quizzes, explaining mistakes, and adapting difficulty
 
 ## Plan
 
@@ -50,22 +33,5 @@ I had planned to achieve {this this}. I think I have/have-not achieved the concl
 
 ----------
 
-# Added instructions:
-
-- This is a `solo assignment`. Each of you will work alone. You are free to talk, discuss with chatgpt, but you are responsible for what you submit. Some students may be called for viva. You should be able to each and every line of work submitted by you.
-
-- `commit` History maintenance.
-  - Fork this respository and build on top of that.
-  - For every step in your plan, there has to be a commit.
-  - Change [TODO] to [DONE] in the plan, before you commit after that step. 
-  - The commit history should show decent amount of work spread into minimum two dates. 
-  - **All the commits done in one day will be rejected**. Even if you are capable of doing the whole thing in one day, refine it in two days.  
- 
- - Deadline: Nov 30, Sunday 11:59 pm
-
-
-# Grading: total 25 marks
-
-- Coverage of most of topics in this class: 20
 - Creativity: 5
   
