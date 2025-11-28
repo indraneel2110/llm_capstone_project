@@ -31,10 +31,23 @@ Defining the Graph Structure: create state.py to define exactly what data (quest
 [DONE] Step 4: 
 Coding the Worker Nodes: this will be the core logic. I will create nodes.py to write the specific functions for Retrieval (fetching data), Study Generation (RAG), and Quiz Generation.
 
-[TODO] Step 5: 
+[DONE] Step 5: 
 Wiring the Graph: to bring everything together in main.py. This involves defining the LangGraph workflow and the conditional edges :the Router that decides whether to generate a quiz or a study guide.
 
 So far this is the plan, i'll update anything else accordingly after doing this first
+
+Update: I have achieved the core objective of the project: uploading a pdf and getting the llm model to be able to 
+1) answer any question from the pdf I want
+2) quiz me on the topics from the pdf
+
+These are some results after I uploaded an example pdf and ran the program:
+
+<img width="1594" height="586" alt="image" src="https://github.com/user-attachments/assets/6c24f36b-37eb-4110-8632-54b91339d4a1" />
+
+<img width="948" height="631" alt="image" src="https://github.com/user-attachments/assets/116133f4-d1f3-48cb-aaca-dd8620d90650" />
+
+This however, is still a bit far from what I had envisioned, I still want to add some additional features like adaptable difficulty, web search etc using more tools that I learnt throughout the course
+So I will make some more changes in due time
 
 ## Conclusion:
 
