@@ -28,13 +28,14 @@ Building the Search Engine (Data Layer): create rag_setup.py to handle PDF loadi
 [DONE] Step 3: 
 Defining the Graph Structure: create state.py to define exactly what data (questions, documents, answers) flows between the steps. I will also create schemas.py using Pydantic to ensure that when I ask for a quiz, the AI gives me perfect JSON instead of messy text.
 
-[TODO] Step 4: 
+[DONE] Step 4: 
 Coding the Worker Nodes: this will be the core logic. I will create nodes.py to write the specific functions for Retrieval (fetching data), Study Generation (RAG), and Quiz Generation.
 
 [TODO] Step 5: 
 Wiring the Graph: to bring everything together in main.py. This involves defining the LangGraph workflow and the conditional edges :the Router that decides whether to generate a quiz or a study guide.
 
 So far this is the plan, i'll update anything else accordingly after doing this first
+
 ## Conclusion:
 
 I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
