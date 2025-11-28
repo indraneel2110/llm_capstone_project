@@ -25,7 +25,7 @@ Setting up the Environment: make a virtual environment, create a .env file, inst
 [DONE] Step 2: 
 Building the Search Engine (Data Layer): create rag_setup.py to handle PDF loading and text splitting. Set up the Vector Database (ChromaDB) and run a test to ensure the system can actually find specific keywords in my document.
 
-[TODO] Step 3: 
+[DONE] Step 3: 
 Defining the Graph Structure: create state.py to define exactly what data (questions, documents, answers) flows between the steps. I will also create schemas.py using Pydantic to ensure that when I ask for a quiz, the AI gives me perfect JSON instead of messy text.
 
 [TODO] Step 4: 
