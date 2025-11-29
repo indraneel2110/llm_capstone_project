@@ -50,7 +50,7 @@ This however, is still a bit far from what I had envisioned, I still want to add
 
 Update: I have thought about the following next steps now in order to improve my project and add some creative features:
 
-[TODO] Step 6: 
+[DONE] Step 6: 
 Scaling Data Ingestion: Upgrade the ingestion pipeline from just processing a single PDF file to a Directory Loader.
 
 [TODO] Step 7: 
