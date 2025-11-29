@@ -46,8 +46,24 @@ These are some results after I uploaded an example pdf and ran the program:
 
 <img width="948" height="631" alt="image" src="https://github.com/user-attachments/assets/116133f4-d1f3-48cb-aaca-dd8620d90650" />
 
-This however, is still a bit far from what I had envisioned, I still want to add some additional features like adaptable difficulty, web search etc using more tools that I learnt throughout the course
-So I will make some more changes in due time
+This however, is still a bit far from what I had envisioned, I still want to add some additional features like adaptable difficulty, web search etc using more tools that I learnt throughout the course. So I will make some more changes in due time
+
+Update: I have thought about the following next steps now in order to improve my project and add some creative features:
+
+[TODO] Step 6: 
+Scaling Data Ingestion: Upgrade the ingestion pipeline from just processing a single PDF file to a Directory Loader.
+
+[TODO] Step 7: 
+Implement Web Search and Parallelization: Use Web Search (using DuckDuckGo search tool) as a fallback for missing information. Refactor the graph to run PDF Retrieval and Web Search in parallel.
+
+[TODO] Step 8: 
+Merging & Relevance Grading: Implement a Merger Node that evaluates the quality of retrieved PDF documents. Add conditional logic to prioritize PDF data but automatically switch to Web data if the PDF content is graded as irrelevant.
+
+[TODO] Step 9:
+Adaptibility and Strict Output Constraints: Update GraphState to track difficulty levels between 3 levels(easy, medium and hard). Add a feedback loop in the main application that suggests increasing/decreasing difficulty based on the user's score in the previous quiz. Refine the Quiz Generation prompt to include Negative Constraints and ensure the LLM focuses strictly on technical concepts instead of irrelevant questions on document formatting and metadata.
+
+[TODO] Step 10:
+Add minimal UI: Replace the basic input loop with a rich terminal UI using the rich library
 
 ## Conclusion:
 
