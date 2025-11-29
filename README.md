@@ -53,7 +53,7 @@ Update: I have thought about the following next steps now in order to improve my
 [DONE] Step 6: 
 Scaling Data Ingestion: Upgrade the ingestion pipeline from just processing a single PDF file to a Directory Loader.
 
-[TODO] Step 7: 
+[DONE] Step 7: 
 Implement Web Search and Parallelization: Use Web Search (using DuckDuckGo search tool) as a fallback for missing information. Refactor the graph to run PDF Retrieval and Web Search in parallel.
 
 [TODO] Step 8: 
