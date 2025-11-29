@@ -56,10 +56,10 @@ Scaling Data Ingestion: Upgrade the ingestion pipeline from just processing a si
 [DONE] Step 7: 
 Implement Web Search and Parallelization: Use Web Search (using DuckDuckGo search tool) as a fallback for missing information. Refactor the graph to run PDF Retrieval and Web Search in parallel.
 
-[TODO] Step 8: 
+[DONE] Step 8: 
 Merging & Relevance Grading: Implement a Merger Node that evaluates the quality of retrieved PDF documents. Add conditional logic to prioritize PDF data but automatically switch to Web data if the PDF content is graded as irrelevant.
 
-[TODO] Step 9:
+[DONE] Step 9:
 Adaptibility and Strict Output Constraints: Update GraphState to track difficulty levels between 3 levels(easy, medium and hard). Add a feedback loop in the main application that suggests increasing/decreasing difficulty based on the user's score in the previous quiz. Refine the Quiz Generation prompt to include Negative Constraints and ensure the LLM focuses strictly on technical concepts instead of irrelevant questions on document formatting and metadata.
 
 [TODO] Step 10:
