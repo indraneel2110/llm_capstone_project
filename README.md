@@ -67,6 +67,11 @@ This project will integrate the following tools that I learnt throughout the cou
 
 ## Final Results:
 
+This is the structure of the graph:
+
+<img width="338" height="432" alt="image" src="https://github.com/user-attachments/assets/3d1184ad-a816-4536-8f1b-c4e7c113bc73" />
+
+
 -The llm uses rag to retreive relevant information from the pdf sets uploaded by user and parallely runs web search on the user asked question, if the question asked is relevant and present in the uploaded pdfs, then the llm discards the web search results and answers on the basis of the pdfs. Else, it answers on the basis of web search.
 
 <img width="1615" height="815" alt="image" src="https://github.com/user-attachments/assets/0ed424f1-5c50-4bc4-a41f-3e0cd95211be" />
