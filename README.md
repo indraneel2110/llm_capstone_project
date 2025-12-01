@@ -93,3 +93,5 @@ I had planned to achieve a functional and efficient Study Guide that could help 
   
 ## VIDEO:
 https://drive.google.com/file/d/1iXKcgq7_EZ5HLc83NMqW_wcNyBt8Ak8w/view?usp=sharing
+
+-(screen rec wasn't working, so I used veed.io, please ignore the huge watermark)
